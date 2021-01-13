@@ -1,0 +1,43 @@
+package ru.geekbrains.lesson1;
+
+public class MyDz {
+    public static void main(String[] args) {
+        byte xi = 2;
+        short yi = 325;
+        int ii = -245;
+        long pi = 422L;
+        float iz = 56.07f;
+        double da = 899.688;
+        char bi = '@';
+        boolean li = false;
+        float a = 1.4f, b = 2.6f, c = 3.56f, d = 4.58f;
+        int x = 125;
+        System.out.println(a * (b + (c / d)));
+    }
+    public static boolean Summa(int a, int b){
+          if (a+b >= 10 && a+b <= 20) return true;
+          else return false;
+    }
+    public static void Chislo( int abc){
+        if (abc < 0) {
+            System.out.println("Число отрицательное");
+        } else {
+            System.out.println("Число положительное");
+        }
+    }
+    public static void prinStroku(String name) {
+        System.out.println("Привет, " + name);
+    }
+    public static void godVesok (int x) {
+       if (x % 400 == 0) {
+           System.out.println(x + " Год високосный");
+        } if (x % 100 == 0) {
+            System.out.println(x + " Год невисокосный");
+        } if (x % 4 == 0){
+            System.out.println(x + " Год високосный");
+        } else {
+            System.out.println(x + " Год невисокосный");
+        }
+    }
+
+}
